@@ -1,1 +1,3 @@
-# PLProject5
+Run parser:
+
+cat lyrics.out | python problem2.py

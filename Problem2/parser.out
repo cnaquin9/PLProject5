@@ -1,0 +1,41 @@
+Created by PLY version 3.8 (http://www.dabeaz.com/ply)
+
+Unused terminals:
+
+    PARTRIDGE
+
+Grammar
+
+Rule 0     S' -> start
+Rule 1     start -> MY
+Rule 2     start -> WORD
+Rule 3     start -> ORDINAL
+Rule 4     start -> NUMBER
+Rule 5     start -> day
+Rule 6     start -> partridge
+Rule 7     start -> gift
+Rule 8     start -> empty
+Rule 9     day -> WORD WORD ORDINAL WORD WORD WORD ,
+Rule 10    gift -> NUMBER WORD WORD
+Rule 11    gift -> NUMBER WORD WORD AND
+Rule 12    empty -> <empty>
+
+Terminals, with rules where they appear
+
+,                    : 9
+AND                  : 11
+MY                   : 1
+NUMBER               : 4 10 11
+ORDINAL              : 3 9
+PARTRIDGE            : 
+WORD                 : 2 9 9 9 9 9 10 10 11 11
+error                : 
+
+Nonterminals, with rules where they appear
+
+day                  : 5
+empty                : 8
+gift                 : 7
+partridge            : 6
+start                : 0
+
